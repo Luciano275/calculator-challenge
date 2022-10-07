@@ -7,15 +7,15 @@ function App() {
   const initial_translate = "translateX(0%)";
   const initial_count: number = 1;
 
-  const [classNColor, setClassNColor] = useState<string>("");
+  const [classNColor, setClassNColor] = useState<string>("dark-theme-header");
   const [classNContainerCirlcle, setClassNContainerCircle] =
-    useState<string>("");
-  const [classNCircle, setClassNCircle] = useState<string>("");
-  const [classNScreen, setClassNScreen] = useState<string>("");
-  const [classNContainerKeys, setClassNContainerKeys] = useState<string>("");
-  const [classNKeys, setClassNKeys] = useState<string>("");
-  const [classNKeyDR, setClassNKeyDR] = useState<string>("");
-  const [classNKeyEqual, setClassNKeyEqual] = useState<string>("");
+    useState<string>("dark-theme-container-circle");
+  const [classNCircle, setClassNCircle] = useState<string>("dark-theme-circle");
+  const [classNScreen, setClassNScreen] = useState<string>("dark-theme-screen");
+  const [classNContainerKeys, setClassNContainerKeys] = useState<string>("dark-theme-container-keys");
+  const [classNKeys, setClassNKeys] = useState<string>("dark-theme-keys");
+  const [classNKeyDR, setClassNKeyDR] = useState<string>("dark-theme-key-dr");
+  const [classNKeyEqual, setClassNKeyEqual] = useState<string>("dark-theme-key-equal");
 
   const [countTheme, setCountTheme] = useState<number>(initial_count);
   const [translateCircle, setTranslate] = useState<string>(initial_translate);
